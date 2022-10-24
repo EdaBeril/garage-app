@@ -1,0 +1,137 @@
+{
+	"info": {
+		"_postman_id": "42a07aaf-0f2e-4ee6-a0c6-d7aa4b86f249",
+		"name": "My workspace",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Park",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": {\r\n        \"numberPlate\": \"34-FO-2048\",\r\n        \"vehicleType\": \"Car\",\r\n        \"color\": \"BROWN\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/garage/park",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"park"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Park 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": {\r\n        \"numberPlate\": \"34-ASD-8009\",\r\n        \"vehicleType\": \"Jeep\",\r\n        \"color\": \"ORANGE\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/garage/park",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"park"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Park 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": {\r\n        \"numberPlate\": \"34-BO-2023\",\r\n        \"vehicleType\": \"Truck\",\r\n        \"color\": \"PURPLE\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/garage/park",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"park"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/garage/status",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Leave",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/garage/leave/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"leave",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
